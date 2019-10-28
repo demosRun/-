@@ -1,18 +1,177 @@
-<template>
-  <div class="home">
-    内容
-  </div>
+<template lang="pug">
+.home
+  temple(_name="topBar" logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png" _src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
+  .top
+    img.top-image(src="@|top.jpg|")
+    span 运用好CDS助力优化杠杆结构、缓释金融风险
+  .nav-box
+    .nav-bar.w1000
+      span 背景介绍
+      span 会议信息
+      span 专家观点
+      span 相关新闻
+  //- 主要内容区域
+  .bottom
+    .w1000.content
+      temple(_name="img-title-bar" _image="@|title-1.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      //- 会议信息
+      temple(_name="img-title-bar" _image="@|title-2.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .meeting-box.clear
+        .left.item 要维护金融稳健运行，有效防范和化解金融风险，引导和稳定社会预期。不断完善金融监管框架加强协调，消除监管盲点，提高监管有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉查有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉机制严厉查有效性。加快健全系统性风查处非法集资等违法违规行为。
+        .right.item
+          .title 会议相关议题
+
+      //- 专家观点
+      temple(_name="img-title-bar" _image="@|title-3.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .viewpoint-box.clear
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+        temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
+      //- 新闻列表
+      temple(_name="img-title-bar" _image="@|title-4.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .news-box.clear
+        temple(_name="newsList" class="item" _src="./src/module/newsList.owo")
+        temple(_name="newsList" class="item" _src="./src/module/newsList.owo")
+      //- 栏目介绍
+      .info-box
+        temple(_name="img-title-bar" _image="@|title-5.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+        p &nbsp;&nbsp;要维护金融稳健运行，有效防范和化解金融风险，引导和稳定社会预期。不断完善金融监管框架加强协调，消除监管盲点提高监管有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉查有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉机制严厉查有效性。加快健全系统性风查处非法集资等违法违规行为。
+        .tell-us 联系我们：kf@people.cn
+  temple(_name="copyright" _src="https://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page")
 </template>
-
-<script>
-  module.exports = {
-    created: function () {
-
-    }
-  }
-</script>
 
 
 <style lang="less">
-
+.top {
+  position: relative;
+  span {
+    position: absolute;
+    color: white;
+    font-size: 26px;
+    line-height: 40px;
+    left: 7%;
+    right: 0;
+    width: 35%;
+    margin: 0 auto;
+    bottom: 13%;
+    text-align: center;
+    overflow: hidden;
+    height: 40px;
+  }
+}
+.top-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.bottom {
+  background-image: url('@|bottom.jpg|');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-bottom: 50px;
+}
+.nav-box {
+  background-color: #001480;
+}
+.nav-bar {
+  height: 60px;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: 26px center;
+  background-image: url('@|nav.png|');
+  span {
+    width: 18%;
+    display: inline-block;
+    line-height: 60px;
+    color: white;
+    padding-left: 7%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  span:hover {
+    background-color: rgba(78, 136, 243, 0.46);
+  }
+}
+.content {
+  padding-top: 30px;
+  background-color: white;
+  .img-title-bar {
+    margin: 20px 0;
+  }
+}
+.news-box {
+  margin-bottom: 40px;
+  .item {
+    float: left;
+    width: 50%;
+  }
+}
+.info-box {
+  background-color: #f0f1f6;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  position: relative;
+  p {
+    color: #0b1f77;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 50px;
+  }
+}
+.tell-us {
+  color: #0b1f77;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: left center;
+  background-image: url('@|info-icon.png|');
+}
+.viewpoint-box {
+  width: 996px;
+  margin: 0 auto;
+  .viewpoint-card {
+    background-color: #0f47a5;
+  }
+}
+.people-card {
+  float: left;
+  margin: 26px;
+}
+.meeting-box {
+  margin: 0 20px;
+  .left {
+    width: 350px;
+    color: #0b1f77;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 20px;
+    font-family: "Microsoft YaHei";
+  }
+  .item {
+    float: left;
+  }
+  .right {
+    width: 590px;
+  }
+  .title {
+    background-repeat: no-repeat;
+    line-height: 50px;
+    background-position: -10px bottom;
+    text-align: center;
+    font-size: 24px;
+    color: #001b5e;
+    font-weight: bold;
+    background-image: url('@|line.png|');
+  }
+}
 </style>

@@ -1,0 +1,38 @@
+<template lang="pug">
+.people-card
+  .people-img
+    img(src="@|people.png|" width="210" height="210")
+  h1 高扬
+  h3 北京工商大学经济学院教授
+  h3 北京工商大学经济学院教授
+</template>
+
+<style>
+.people-card {
+  width: 280px;
+  height: 340px;
+  padding: 20px 0;
+  background-color: #0f47a5;
+}
+.people-img {
+  width: 210px;
+  height: 210px;
+  border-radius: 105px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 5px solid #3264bb;
+}
+h1 {
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  margin-top: 20px;
+}
+h3 {
+  text-align: center;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+}
+</style>
