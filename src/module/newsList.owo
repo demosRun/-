@@ -13,11 +13,11 @@ a:hover {
   text-decoration: none;
 }
 li {
-  background-image: url('@|icon.png|');
+  background-image: url('@|li-icon.png|');
   background-repeat: no-repeat;
   line-height: 40px;
   background-position: left center;
-  padding-left: 26px;
+  padding-left: 30px;
   font-size: 16px;
   font-weight: bold;
   margin: 0 20px;

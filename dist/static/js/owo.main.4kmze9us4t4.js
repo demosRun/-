@@ -1,4 +1,117 @@
-// Mon Oct 28 2019 17:17:49 GMT+0800 (GMT+08:00)
+// Tue Oct 29 2019 10:26:54 GMT+0800 (GMT+08:00)
+
+// 存储页面基本信息
+var owo = {
+  // 手机入口
+  phoneEnter: "null",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "template": {
+      "topBar": {
+        "prop": {
+          "logo": "http://www.people.com.cn/img/2016people/images/rmw_logo.png"
+        }
+      },
+      "swiperBox": {
+        "created": function created() {
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            new Swiper(owo.query('.swiper-container')[0], {
+              pagination: owo.query('.pagination')[0],
+              "autoplay": 3000,
+              paginationClickable: true
+            });
+          }, 0);
+        }
+      },
+      "switchShow": {
+        "created": function created() {
+          this.data.swiper = new Swiper('#auto-swiper', {
+            "loop": true,
+            "autoplay": 3000,
+            "slidesPerView": 3
+          });
+        },
+        "data": {
+          "swiper": null
+        },
+        "swiperNext": function swiperNext() {
+          this.data.swiper.swipeNext();
+        },
+        "swiperPrev": function swiperPrev() {
+          // console.log('swiperPrev')
+          this.data.swiper.swipePrev();
+        }
+      },
+      "newsList": {
+        "prop": {
+          "class": "item"
+        }
+      },
+      "newsList-1": {
+        "prop": {
+          "class": "item"
+        }
+      }
+    }
+  },
+  "topBar": {
+    "prop": {
+      "logo": "http://www.people.com.cn/img/2016people/images/rmw_logo.png"
+    }
+  },
+  "swiperBox": {
+    "created": function created() {
+      // 轮播图展示区域swiper
+      setTimeout(function () {
+        new Swiper(owo.query('.swiper-container')[0], {
+          pagination: owo.query('.pagination')[0],
+          paginationClickable: true
+        });
+      }, 0);
+    }
+  },
+  "switchShow": {
+    "created": function created() {
+      this.data.swiper = new Swiper('#auto-swiper', {
+        "loop": true,
+        "autoplay": 3000,
+        "slidesPerView": 3
+      });
+    },
+    "data": {
+      "swiper": null
+    },
+    "swiperNext": function swiperNext() {
+      this.data.swiper.swipeNext();
+    },
+    "swiperPrev": function swiperPrev() {
+      // console.log('swiperPrev')
+      this.data.swiper.swipePrev();
+    }
+  },
+  "newsList": {
+    "prop": {
+      "class": "item"
+    }
+  },
+  "newsList-1": {
+    "prop": {
+      "class": "item"
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {}

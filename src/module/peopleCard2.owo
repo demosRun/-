@@ -1,5 +1,5 @@
 <template lang="pug">
-.people-card(o-hover="bubble-float-top")
+.people-card-2(o-hover="bubble-float-top")
   .people-img
     img(src="@|people.png|" width="210" height="210")
   h1 高扬
@@ -9,7 +9,7 @@
 </template>
 
 <style>
-.people-card {
+.people-card-2 {
   width: 280px;
   height: 340px;
   padding: 20px 0;
@@ -42,7 +42,7 @@ h3 {
   width: 600px;
   left: -180px;
   margin: auto;
-  bottom: 106%;
+  top: 106%;
   background-color: #f1dddd;
   padding: 4%;
   font-size: 22px;

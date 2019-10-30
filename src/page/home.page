@@ -6,22 +6,30 @@
     span 运用好CDS助力优化杠杆结构、缓释金融风险
   .nav-box
     .nav-bar.w1000
-      span 背景介绍
-      span 会议信息
-      span 专家观点
-      span 相关新闻
+      a(href="#beijingjieshao") 背景要文
+      a(href="#huiyixinxi") 会议信息
+      a(href="#zhuanjiaguandian") 专家观点
+      a(href="#xinwenliebiao") 相关新闻
   //- 主要内容区域
   .bottom
     .w1000.content
+      //- 背景介绍
+      a(name="beijingjieshao")
       temple(_name="img-title-bar" _image="@|title-1.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .background-info.clear
+        .left.item
+          temple(_name="swiperBox" _src="https://owo.ink/public/52f047cc63c0fc038ccb976e7ff1f6bf.page")
+        .right.item         要维护金融稳健运行，有效防范和化解金融风险，引导和稳定社会预期。不断完善金融监管框架加强协调，消除监管盲点，提高监管有效性。加快健全系统性风险监测评估防范体系和应急处置机制严厉查处非法集资等违法违规行为。
       //- 会议信息
+      a(name="huiyixinxi")
       temple(_name="img-title-bar" _image="@|title-2.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
       .meeting-box.clear
-        .left.item 要维护金融稳健运行，有效防范和化解金融风险，引导和稳定社会预期。不断完善金融监管框架加强协调，消除监管盲点，提高监管有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉查有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉机制严厉查有效性。加快健全系统性风查处非法集资等违法违规行为。
+        .left.item &nbsp;&nbsp;要维护金融稳健运行，有效防范和化解金融风险，引导和稳定社会预期。不断完善金融监管框架加强协调，消除监管盲点，提高监管有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉查有效性。加快健全系统性风险监测评估防范体系和应急处机制严厉机制严厉查有效性。加快健全系统性风查处非法集资等违法违规行为。
         .right.item
           .title 会议相关议题
-
+          temple(_name="switchShow" _src="https://owo.ink/public/472a3e99fca0d20b675255458dfaa1dc.page")
       //- 专家观点
+      a(name="zhuanjiaguandian")
       temple(_name="img-title-bar" _image="@|title-3.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
       .viewpoint-box.clear
         temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
@@ -31,6 +39,7 @@
         temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
         temple(_name="peopleCard" _src="./src/module/peopleCard.owo")
       //- 新闻列表
+      a(name="xinwenliebiao")
       temple(_name="img-title-bar" _image="@|title-4.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
       .news-box.clear
         temple(_name="newsList" class="item" _src="./src/module/newsList.owo")
@@ -82,18 +91,19 @@
   height: 60px;
   font-weight: bold;
   background-repeat: no-repeat;
-  background-position: 26px center;
+  background-position: 47px center;
   background-image: url('@|nav.png|');
-  span {
-    width: 18%;
+  a {
+    width: 16%;
     display: inline-block;
     line-height: 60px;
     color: white;
-    padding-left: 7%;
+    padding-left: 9%;
     font-size: 20px;
     cursor: pointer;
   }
-  span:hover {
+  a:hover {
+    text-decoration: none;
     background-color: rgba(78, 136, 243, 0.46);
   }
 }
@@ -139,22 +149,27 @@
 .viewpoint-box {
   width: 996px;
   margin: 0 auto;
+  padding-bottom: 20px;
   .viewpoint-card {
     background-color: #0f47a5;
   }
 }
-.people-card {
+.people-card, .people-card-2 {
   float: left;
-  margin: 26px;
+  margin: 10px 26px;
+  cursor: pointer;
 }
 .meeting-box {
   margin: 0 20px;
+  padding-bottom: 20px;
   .left {
-    width: 350px;
+    width: 320px;
     color: #0b1f77;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 37px;
     padding-right: 20px;
+    font-weight: bold;
+    margin-top: 20px;
     font-family: "Microsoft YaHei";
   }
   .item {
@@ -172,6 +187,32 @@
     color: #001b5e;
     font-weight: bold;
     background-image: url('@|line.png|');
+    margin-bottom: 35px;
+  }
+}
+.background-info {
+  position: relative;
+  margin-bottom: 50px;
+  .left {
+    width: 520px;
+    height: 320px;
+    margin-left: 1px;
+  }
+  .right {
+    width: 418px;
+    background-color: #1631a2;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 30px;
+    margin: auto;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    height: 185px;
+    overflow: hidden;
+    o
   }
 }
 </style>

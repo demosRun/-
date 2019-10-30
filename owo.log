@@ -1,583 +1,138 @@
-[2019-10-28T16:42:22.255] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:42:22.257] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:42:22.257] [INFO] default - 首次启动!
-[2019-10-28T16:42:22.257] [INFO] default - 生成版本号: 9xy7up7wf3
-[2019-10-28T16:42:22.266] [INFO] default - 清理资源文件夹: D:\work\金台圆桌\dist\static
-[2019-10-28T16:42:22.266] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static
-[2019-10-28T16:42:22.267] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static
-[2019-10-28T16:42:22.267] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:42:22.267] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:42:22.267] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:42:22.268] [INFO] default - 开始处理模块: home
-[2019-10-28T16:42:22.868] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:42:22.869] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:42:22.874] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:42:22.879] [DEBUG] default - 模块topBar处理用时: 11 毫秒!
-[2019-10-28T16:42:22.880] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:42:22.880] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:42:22.884] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:42:22.932] [DEBUG] default - 模块img-title-bar处理用时: 52 毫秒!
-[2019-10-28T16:42:22.932] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:42:22.932] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:42:22.939] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:22.939] [DEBUG] default - 模块img-title-bar处理用时: 7 毫秒!
-[2019-10-28T16:42:22.939] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:42:22.939] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:42:22.941] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:22.942] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:42:22.942] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:42:22.942] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:42:22.944] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:22.945] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:42:22.945] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:42:22.954] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:42:22.957] [DEBUG] default - 模块newsList处理用时: 12 毫秒!
-[2019-10-28T16:42:22.957] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:42:22.957] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:42:22.957] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:42:22.960] [DEBUG] default - 模块newsList处理用时: 3 毫秒!
-[2019-10-28T16:42:22.960] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:42:22.960] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:42:22.964] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:22.964] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:42:22.964] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:42:22.964] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:42:22.967] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:42:22.968] [DEBUG] default - 模块copyright处理用时: 4 毫秒!
-[2019-10-28T16:42:22.970] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:42:22.980] [DEBUG] default - 页面home处理用时: 712 毫秒!
-[2019-10-28T16:42:22.981] [INFO] default - 文件夹不存在: D:/work/金台圆桌/dist/static/resource
-[2019-10-28T16:42:22.982] [INFO] default - 创建文件夹: D:/work/金台圆桌/dist/static/resource
-[2019-10-28T16:42:22.983] [DEBUG] default - 处理资源:  [ 'D:/work/金台圆桌/src/resource/icon.png',
+[2019-10-29T10:26:54.035] [INFO] default - --------------------------- 开始编译 ---------------------------
+[2019-10-29T10:26:54.037] [INFO] default - 程序运行目录: D:\work\金台圆桌
+[2019-10-29T10:26:54.037] [INFO] default - 首次启动!
+[2019-10-29T10:26:54.037] [INFO] default - 生成版本号: 4kmze9us4t4
+[2019-10-29T10:26:54.045] [INFO] default - 清理资源文件夹: D:\work\金台圆桌\dist\static
+[2019-10-29T10:26:54.045] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static
+[2019-10-29T10:26:54.045] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static
+[2019-10-29T10:26:54.045] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
+[2019-10-29T10:26:54.045] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
+[2019-10-29T10:26:54.045] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
+[2019-10-29T10:26:54.046] [INFO] default - 开始处理模块: home
+[2019-10-29T10:26:54.410] [INFO] default - 开始处理模块: topBar
+[2019-10-29T10:26:54.411] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
+[2019-10-29T10:26:54.415] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
+[2019-10-29T10:26:54.421] [DEBUG] default - 模块topBar处理用时: 11 毫秒!
+[2019-10-29T10:26:54.422] [INFO] default - 开始处理模块: img-title-bar
+[2019-10-29T10:26:54.422] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
+[2019-10-29T10:26:54.426] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
+[2019-10-29T10:26:54.459] [DEBUG] default - 模块img-title-bar处理用时: 38 毫秒!
+[2019-10-29T10:26:54.459] [INFO] default - 开始处理模块: swiperBox
+[2019-10-29T10:26:54.459] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\62a71225d5da5d149726ad63fa40e88d.owo
+[2019-10-29T10:26:54.472] [DEBUG] default - 缓存模板: swiperBoxhttps://owo.ink/public/52f047cc63c0fc038ccb976e7ff1f6bf.page
+[2019-10-29T10:26:54.482] [DEBUG] default - 模块swiperBox处理用时: 23 毫秒!
+[2019-10-29T10:26:54.483] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
+[2019-10-29T10:26:54.483] [INFO] default - 开始处理模块: img-title-bar-1
+[2019-10-29T10:26:54.486] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
+[2019-10-29T10:26:54.486] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
+[2019-10-29T10:26:54.486] [INFO] default - 开始处理模块: switchShow
+[2019-10-29T10:26:54.486] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\9a8e4e9563d09d079d727dec91367427.owo
+[2019-10-29T10:26:54.499] [DEBUG] default - 缓存模板: switchShowhttps://owo.ink/public/472a3e99fca0d20b675255458dfaa1dc.page
+[2019-10-29T10:26:54.507] [DEBUG] default - 模块switchShow处理用时: 21 毫秒!
+[2019-10-29T10:26:54.507] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
+[2019-10-29T10:26:54.507] [INFO] default - 开始处理模块: img-title-bar-2
+[2019-10-29T10:26:54.510] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
+[2019-10-29T10:26:54.510] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
+[2019-10-29T10:26:54.510] [INFO] default - 开始处理模块: peopleCard
+[2019-10-29T10:26:54.517] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
+[2019-10-29T10:26:54.519] [DEBUG] default - 模块peopleCard处理用时: 9 毫秒!
+[2019-10-29T10:26:54.519] [DEBUG] default - 模块 peopleCard 因名称重复被重命名为 peopleCard-1
+[2019-10-29T10:26:54.519] [INFO] default - 开始处理模块: peopleCard-1
+[2019-10-29T10:26:54.519] [DEBUG] default - 使用缓存返回模板: peopleCard-1
+[2019-10-29T10:26:54.520] [DEBUG] default - 模块peopleCard处理用时: 1 毫秒!
+[2019-10-29T10:26:54.520] [DEBUG] default - 模块 peopleCard 因名称重复被重命名为 peopleCard-2
+[2019-10-29T10:26:54.520] [INFO] default - 开始处理模块: peopleCard-2
+[2019-10-29T10:26:54.520] [DEBUG] default - 使用缓存返回模板: peopleCard-2
+[2019-10-29T10:26:54.521] [DEBUG] default - 模块peopleCard处理用时: 1 毫秒!
+[2019-10-29T10:26:54.522] [DEBUG] default - 模块 peopleCard 因名称重复被重命名为 peopleCard-3
+[2019-10-29T10:26:54.522] [INFO] default - 开始处理模块: peopleCard-3
+[2019-10-29T10:26:54.522] [DEBUG] default - 使用缓存返回模板: peopleCard-3
+[2019-10-29T10:26:54.523] [DEBUG] default - 模块peopleCard处理用时: 1 毫秒!
+[2019-10-29T10:26:54.523] [DEBUG] default - 模块 peopleCard 因名称重复被重命名为 peopleCard-4
+[2019-10-29T10:26:54.523] [INFO] default - 开始处理模块: peopleCard-4
+[2019-10-29T10:26:54.523] [DEBUG] default - 使用缓存返回模板: peopleCard-4
+[2019-10-29T10:26:54.524] [DEBUG] default - 模块peopleCard处理用时: 1 毫秒!
+[2019-10-29T10:26:54.524] [DEBUG] default - 模块 peopleCard 因名称重复被重命名为 peopleCard-5
+[2019-10-29T10:26:54.524] [INFO] default - 开始处理模块: peopleCard-5
+[2019-10-29T10:26:54.524] [DEBUG] default - 使用缓存返回模板: peopleCard-5
+[2019-10-29T10:26:54.525] [DEBUG] default - 模块peopleCard处理用时: 1 毫秒!
+[2019-10-29T10:26:54.525] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
+[2019-10-29T10:26:54.525] [INFO] default - 开始处理模块: img-title-bar-3
+[2019-10-29T10:26:54.528] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
+[2019-10-29T10:26:54.528] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
+[2019-10-29T10:26:54.528] [INFO] default - 开始处理模块: newsList
+[2019-10-29T10:26:54.538] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
+[2019-10-29T10:26:54.545] [DEBUG] default - 模块newsList处理用时: 17 毫秒!
+[2019-10-29T10:26:54.545] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
+[2019-10-29T10:26:54.545] [INFO] default - 开始处理模块: newsList-1
+[2019-10-29T10:26:54.545] [DEBUG] default - 使用缓存返回模板: newsList-1
+[2019-10-29T10:26:54.548] [DEBUG] default - 模块newsList处理用时: 3 毫秒!
+[2019-10-29T10:26:54.549] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
+[2019-10-29T10:26:54.549] [INFO] default - 开始处理模块: img-title-bar-4
+[2019-10-29T10:26:54.551] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
+[2019-10-29T10:26:54.552] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
+[2019-10-29T10:26:54.552] [INFO] default - 开始处理模块: copyright
+[2019-10-29T10:26:54.552] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
+[2019-10-29T10:26:54.554] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
+[2019-10-29T10:26:54.555] [DEBUG] default - 模块copyright处理用时: 3 毫秒!
+[2019-10-29T10:26:54.556] [DEBUG] default - 缓存模板: home./src/page/home.page
+[2019-10-29T10:26:54.568] [DEBUG] default - 页面home处理用时: 522 毫秒!
+[2019-10-29T10:26:54.569] [INFO] default - 文件夹不存在: D:/work/金台圆桌/dist/static/resource
+[2019-10-29T10:26:54.569] [INFO] default - 创建文件夹: D:/work/金台圆桌/dist/static/resource
+[2019-10-29T10:26:54.571] [DEBUG] default - 处理资源:  [ 'D:/work/金台圆桌/src/resource/li-icon.png',
   'D:/work/金台圆桌/src/resource/bottom.jpg',
   'D:/work/金台圆桌/src/resource/nav.png',
-  'D:/work/金台圆桌/src/resource/info-icon.png' ]
-[2019-10-28T16:42:22.983] [DEBUG] default - 资源目录:  D:/work/金台圆桌/dist/static/resource
-[2019-10-28T16:42:22.985] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:42:22.985] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:42:23.026] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static\css
-[2019-10-28T16:42:23.026] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static\css
-[2019-10-28T16:42:23.026] [INFO] default - 开始处理附属css中的资源
-[2019-10-28T16:42:23.027] [INFO] default - 附属css中的资源处理完毕!
-[2019-10-28T16:42:23.027] [INFO] default - 处理字体: {}
-[2019-10-28T16:42:23.710] [INFO] default - 使用postcss处理完毕! 用时: 725 毫秒
-[2019-10-28T16:42:23.710] [INFO] default - 正在处理script!
-[2019-10-28T16:42:23.711] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:42:23.713] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static\js
-[2019-10-28T16:42:23.713] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static\js
-[2019-10-28T16:42:23.713] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:42:26.030] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:42:26.030] [INFO] default - 读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
-[2019-10-28T16:42:26.031] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:42:26.031] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:42:26.031] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:42:26.031] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:42:26.031] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:42:26.031] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:42:26.031] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:42:26.031] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:42:26.031] [DEBUG] default - 输出scriptData
-[2019-10-28T16:42:26.032] [DEBUG] default - 准备输出html!
-[2019-10-28T16:42:26.032] [DEBUG] default - 处理资源:  [ 'D:/work/金台圆桌/src/resource/top.jpg',
+  'D:/work/金台圆桌/src/resource/info-icon.png',
+  'D:/work/金台圆桌/src/resource/line.png' ]
+[2019-10-29T10:26:54.571] [DEBUG] default - 资源目录:  D:/work/金台圆桌/dist/static/resource
+[2019-10-29T10:26:54.574] [DEBUG] default - css中的资源处理完毕!
+[2019-10-29T10:26:54.574] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
+[2019-10-29T10:26:54.621] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static\css
+[2019-10-29T10:26:54.622] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static\css
+[2019-10-29T10:26:54.622] [INFO] default - 开始处理附属css中的资源
+[2019-10-29T10:26:54.622] [INFO] default - 附属css中的资源处理完毕!
+[2019-10-29T10:26:54.622] [INFO] default - 处理字体: {}
+[2019-10-29T10:26:54.629] [INFO] default - 使用postcss处理完毕! 用时: 55 毫秒
+[2019-10-29T10:26:54.629] [INFO] default - 判断css中的外链情况!
+[2019-10-29T10:26:54.630] [DEBUG] default - 发现外链列表: '../resource/li-icon.png','../resource/bottom.jpg','../resource/nav.png','../resource/info-icon.png','../resource/line.png'
+[2019-10-29T10:26:54.631] [INFO] default - 正在处理script!
+[2019-10-29T10:26:54.632] [INFO] default - 工程中只有一个页面!
+[2019-10-29T10:26:54.633] [INFO] default - 文件夹不存在: D:\work\金台圆桌\dist\static\js
+[2019-10-29T10:26:54.633] [INFO] default - 创建文件夹: D:\work\金台圆桌\dist\static\js
+[2019-10-29T10:26:55.143] [INFO] default - js中的资源处理完毕!
+[2019-10-29T10:26:55.143] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
+[2019-10-29T10:26:55.143] [DEBUG] default - 外部脚本数量: 3
+[2019-10-29T10:26:55.143] [DEBUG] default - 处理脚本: jquery1.11.0
+[2019-10-29T10:26:55.143] [DEBUG] default - 网络脚本: jquery1.11.0
+[2019-10-29T10:26:55.143] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
+[2019-10-29T10:26:55.143] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
+[2019-10-29T10:26:55.143] [DEBUG] default - 处理脚本: main
+[2019-10-29T10:26:55.143] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
+[2019-10-29T10:26:55.143] [DEBUG] default - 输出scriptData
+[2019-10-29T10:26:55.144] [DEBUG] default - 准备输出html!
+[2019-10-29T10:26:55.144] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
+[2019-10-29T10:26:55.144] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
+[2019-10-29T10:26:55.144] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
+[2019-10-29T10:26:55.145] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
+[2019-10-29T10:26:55.145] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
+[2019-10-29T10:26:55.145] [DEBUG] default - 处理资源:  [ 'D:/work/金台圆桌/src/resource/top.jpg',
   'D:/work/金台圆桌/src/resource/title-1.png',
   'D:/work/金台圆桌/src/resource/title-2.png',
+  'D:/work/金台圆桌/src/resource/left.png',
+  'D:/work/金台圆桌/src/resource/right.png',
   'D:/work/金台圆桌/src/resource/title-3.png',
+  'D:/work/金台圆桌/src/resource/people.png',
   'D:/work/金台圆桌/src/resource/title-4.png',
   'D:/work/金台圆桌/src/resource/title-5.png' ]
-[2019-10-28T16:42:26.032] [DEBUG] default - 资源目录:  D:/work/金台圆桌/dist/static/resource
-[2019-10-28T16:42:26.034] [INFO] default - 编译结束!
-[2019-10-28T16:42:26.035] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:42:26.066] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:42:26.071] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.css
-[2019-10-28T16:42:26.071] [INFO] default - 读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
-[2019-10-28T16:42:26.071] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:42:26.162] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\css\main.css
-[2019-10-28T16:42:26.162] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:42:26.162] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\autoReload.js
-[2019-10-28T16:42:49.750] [INFO] default - file change: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:42:49.750] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:42:49.750] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:42:49.750] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:42:49.750] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:42:49.750] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:42:49.750] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:42:49.750] [INFO] default - 开始处理模块: home
-[2019-10-28T16:42:49.778] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:42:49.778] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:42:49.783] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:42:49.784] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
-[2019-10-28T16:42:49.785] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:42:49.785] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:42:49.788] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:42:49.790] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:42:49.790] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:42:49.790] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:42:49.794] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:49.795] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:42:49.795] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:42:49.795] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:42:49.797] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:49.798] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:42:49.798] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:42:49.798] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:42:49.802] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:49.802] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:42:49.802] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:42:49.810] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:42:49.815] [DEBUG] default - 模块newsList处理用时: 13 毫秒!
-[2019-10-28T16:42:49.815] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:42:49.815] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:42:49.815] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:42:49.817] [DEBUG] default - 模块newsList处理用时: 2 毫秒!
-[2019-10-28T16:42:49.818] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:42:49.818] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:42:49.821] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:42:49.821] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:42:49.821] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:42:49.821] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:42:49.824] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:42:49.825] [DEBUG] default - 模块copyright处理用时: 4 毫秒!
-[2019-10-28T16:42:49.827] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:42:49.833] [DEBUG] default - 页面home处理用时: 83 毫秒!
-[2019-10-28T16:42:49.833] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:42:49.833] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:42:49.833] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:42:49.833] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:42:49.833] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:42:49.833] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:42:49.838] [INFO] default - 处理字体: {}
-[2019-10-28T16:42:49.840] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
-[2019-10-28T16:42:49.840] [INFO] default - 正在处理script!
-[2019-10-28T16:42:49.841] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:42:49.843] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:42:49.856] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:42:49.856] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:42:49.856] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:42:49.856] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:42:49.856] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:42:49.856] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:42:49.856] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:42:49.856] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:42:49.857] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:42:49.857] [DEBUG] default - 输出scriptData
-[2019-10-28T16:42:49.857] [DEBUG] default - 准备输出html!
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:42:49.857] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:42:49.857] [INFO] default - 编译结束!
-[2019-10-28T16:42:49.859] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:42:49.860] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:42:49.862] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:42:49.864] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:43:38.540] [INFO] default - file change: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:43:38.540] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:43:38.540] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:43:38.540] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:43:38.540] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:43:38.540] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:43:38.540] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:43:38.540] [INFO] default - 开始处理模块: home
-[2019-10-28T16:43:38.562] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:43:38.562] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:43:38.566] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:43:38.567] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
-[2019-10-28T16:43:38.568] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:43:38.568] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:43:38.571] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:43:38.573] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:43:38.573] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:43:38.573] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:43:38.576] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:43:38.576] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:43:38.577] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:43:38.577] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:43:38.582] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:43:38.582] [DEBUG] default - 模块img-title-bar处理用时: 6 毫秒!
-[2019-10-28T16:43:38.582] [INFO] default - 开始处理模块: peopleCard
-[2019-10-28T16:43:38.584] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
-[2019-10-28T16:43:38.585] [DEBUG] default - 模块peopleCard处理用时: 3 毫秒!
-[2019-10-28T16:43:38.585] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:43:38.585] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:43:38.588] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:43:38.589] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:43:38.589] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:43:38.599] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:43:38.602] [DEBUG] default - 模块newsList处理用时: 13 毫秒!
-[2019-10-28T16:43:38.602] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:43:38.602] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:43:38.602] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:43:38.604] [DEBUG] default - 模块newsList处理用时: 2 毫秒!
-[2019-10-28T16:43:38.604] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:43:38.604] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:43:38.609] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:43:38.609] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:43:38.609] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:43:38.610] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:43:38.612] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:43:38.613] [DEBUG] default - 模块copyright处理用时: 4 毫秒!
-[2019-10-28T16:43:38.614] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:43:38.621] [DEBUG] default - 页面home处理用时: 81 毫秒!
-[2019-10-28T16:43:38.621] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:43:38.621] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:43:38.621] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:43:38.621] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:43:38.621] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:43:38.622] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:43:38.625] [INFO] default - 处理字体: {}
-[2019-10-28T16:43:38.627] [INFO] default - 使用postcss处理完毕! 用时: 5 毫秒
-[2019-10-28T16:43:38.627] [INFO] default - 正在处理script!
-[2019-10-28T16:43:38.628] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:43:38.629] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:43:38.639] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:43:38.639] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:43:38.639] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:43:38.639] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:43:38.639] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:43:38.639] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:43:38.639] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:43:38.639] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:43:38.639] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:43:38.639] [DEBUG] default - 输出scriptData
-[2019-10-28T16:43:38.639] [DEBUG] default - 准备输出html!
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:43:38.640] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:43:38.640] [INFO] default - 编译结束!
-[2019-10-28T16:43:38.642] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:43:38.644] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:43:38.644] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:43:38.645] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:44:08.011] [INFO] default - file change: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:44:08.011] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:44:08.011] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:44:08.011] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\page\home.page
-[2019-10-28T16:44:08.011] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:44:08.011] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:44:08.011] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:44:08.011] [INFO] default - 开始处理模块: home
-[2019-10-28T16:44:08.032] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:44:08.032] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:44:08.036] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:44:08.038] [DEBUG] default - 模块topBar处理用时: 6 毫秒!
-[2019-10-28T16:44:08.038] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:44:08.038] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:44:08.042] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:44:08.043] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:44:08.043] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:44:08.043] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:44:08.046] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:44:08.047] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:44:08.047] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:44:08.047] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:44:08.050] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:44:08.050] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:44:08.050] [INFO] default - 开始处理模块: peopleCard
-[2019-10-28T16:44:08.053] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
-[2019-10-28T16:44:08.054] [DEBUG] default - 模块peopleCard处理用时: 4 毫秒!
-[2019-10-28T16:44:08.054] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:44:08.054] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:44:08.057] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:44:08.057] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:44:08.058] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:44:08.066] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:44:08.070] [DEBUG] default - 模块newsList处理用时: 12 毫秒!
-[2019-10-28T16:44:08.070] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:44:08.070] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:44:08.070] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:44:08.076] [DEBUG] default - 模块newsList处理用时: 6 毫秒!
-[2019-10-28T16:44:08.076] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:44:08.076] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:44:08.081] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:44:08.081] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:44:08.081] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:44:08.081] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:44:08.084] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:44:08.084] [DEBUG] default - 模块copyright处理用时: 3 毫秒!
-[2019-10-28T16:44:08.085] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:44:08.093] [DEBUG] default - 页面home处理用时: 82 毫秒!
-[2019-10-28T16:44:08.094] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:44:08.094] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:44:08.094] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:44:08.094] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:44:08.094] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:44:08.094] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:44:08.100] [INFO] default - 处理字体: {}
-[2019-10-28T16:44:08.101] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
-[2019-10-28T16:44:08.101] [INFO] default - 正在处理script!
-[2019-10-28T16:44:08.102] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:44:08.103] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:44:08.113] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:44:08.114] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:44:08.114] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:44:08.114] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:44:08.114] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:44:08.114] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:44:08.114] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:44:08.114] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:44:08.114] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:44:08.114] [DEBUG] default - 输出scriptData
-[2019-10-28T16:44:08.114] [DEBUG] default - 准备输出html!
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:44:08.115] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:44:08.115] [INFO] default - 编译结束!
-[2019-10-28T16:44:08.116] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:44:08.137] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:44:08.137] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:44:08.143] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:45:54.663] [INFO] default - file change: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:45:54.663] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:45:54.663] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:45:54.663] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:45:54.663] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:45:54.663] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:45:54.664] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:45:54.664] [INFO] default - 开始处理模块: home
-[2019-10-28T16:45:54.687] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:45:54.687] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:45:54.689] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:45:54.691] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
-[2019-10-28T16:45:54.692] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:45:54.692] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:45:54.695] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:45:54.696] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:45:54.696] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:45:54.696] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:45:54.700] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:45:54.700] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:45:54.700] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:45:54.700] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:45:54.702] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:45:54.703] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:45:54.704] [INFO] default - 开始处理模块: peopleCard
-[2019-10-28T16:45:54.707] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
-[2019-10-28T16:45:54.708] [DEBUG] default - 模块peopleCard处理用时: 4 毫秒!
-[2019-10-28T16:45:54.708] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:45:54.708] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:45:54.712] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:45:54.712] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:45:54.712] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:45:54.719] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:45:54.722] [DEBUG] default - 模块newsList处理用时: 10 毫秒!
-[2019-10-28T16:45:54.722] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:45:54.722] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:45:54.722] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:45:54.724] [DEBUG] default - 模块newsList处理用时: 2 毫秒!
-[2019-10-28T16:45:54.724] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:45:54.724] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:45:54.726] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:45:54.727] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:45:54.728] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:45:54.728] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:45:54.730] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:45:54.730] [DEBUG] default - 模块copyright处理用时: 2 毫秒!
-[2019-10-28T16:45:54.731] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:45:54.738] [DEBUG] default - 页面home处理用时: 74 毫秒!
-[2019-10-28T16:45:54.739] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:45:54.739] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:45:54.739] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:45:54.739] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:45:54.739] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:45:54.739] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:45:54.743] [INFO] default - 处理字体: {}
-[2019-10-28T16:45:54.745] [INFO] default - 使用postcss处理完毕! 用时: 6 毫秒
-[2019-10-28T16:45:54.745] [INFO] default - 正在处理script!
-[2019-10-28T16:45:54.746] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:45:54.747] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:45:54.760] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:45:54.761] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:45:54.761] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:45:54.761] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:45:54.761] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:45:54.761] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:45:54.761] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:45:54.761] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:45:54.761] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:45:54.761] [DEBUG] default - 输出scriptData
-[2019-10-28T16:45:54.761] [DEBUG] default - 准备输出html!
-[2019-10-28T16:45:54.761] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:45:54.762] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:45:54.762] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:45:54.762] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:45:54.762] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:45:54.762] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:45:54.762] [DEBUG] default - 处理资源:  [ 'D:/work/金台圆桌/src/resource/people.png' ]
-[2019-10-28T16:45:54.762] [DEBUG] default - 资源目录:  D:/work/金台圆桌/dist/static/resource
-[2019-10-28T16:45:54.763] [INFO] default - 编译结束!
-[2019-10-28T16:45:54.764] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:45:54.766] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:45:54.766] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:45:54.767] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:46:12.829] [INFO] default - file change: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:46:12.829] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:46:12.829] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:46:12.829] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:46:12.829] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:46:12.829] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:46:12.829] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:46:12.829] [INFO] default - 开始处理模块: home
-[2019-10-28T16:46:12.849] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:46:12.849] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:46:12.852] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:46:12.853] [DEBUG] default - 模块topBar处理用时: 4 毫秒!
-[2019-10-28T16:46:12.853] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:46:12.853] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:46:12.857] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:46:12.858] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:46:12.858] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:46:12.859] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:46:12.862] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:12.862] [DEBUG] default - 模块img-title-bar处理用时: 4 毫秒!
-[2019-10-28T16:46:12.863] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:46:12.863] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:46:12.867] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:12.867] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:46:12.867] [INFO] default - 开始处理模块: peopleCard
-[2019-10-28T16:46:12.871] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
-[2019-10-28T16:46:12.871] [DEBUG] default - 模块peopleCard处理用时: 4 毫秒!
-[2019-10-28T16:46:12.871] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:46:12.871] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:46:12.875] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:12.876] [DEBUG] default - 模块img-title-bar处理用时: 5 毫秒!
-[2019-10-28T16:46:12.877] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:46:12.883] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:46:12.885] [DEBUG] default - 模块newsList处理用时: 8 毫秒!
-[2019-10-28T16:46:12.885] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:46:12.885] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:46:12.885] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:46:12.888] [DEBUG] default - 模块newsList处理用时: 3 毫秒!
-[2019-10-28T16:46:12.888] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:46:12.888] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:46:12.894] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:12.894] [DEBUG] default - 模块img-title-bar处理用时: 6 毫秒!
-[2019-10-28T16:46:12.895] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:46:12.895] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:46:12.898] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:46:12.899] [DEBUG] default - 模块copyright处理用时: 5 毫秒!
-[2019-10-28T16:46:12.899] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:46:12.906] [DEBUG] default - 页面home处理用时: 77 毫秒!
-[2019-10-28T16:46:12.906] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:46:12.907] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:46:12.907] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:46:12.907] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:46:12.907] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:46:12.907] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:46:12.912] [INFO] default - 处理字体: {}
-[2019-10-28T16:46:12.914] [INFO] default - 使用postcss处理完毕! 用时: 7 毫秒
-[2019-10-28T16:46:12.914] [INFO] default - 正在处理script!
-[2019-10-28T16:46:12.914] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:46:12.915] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:46:12.925] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:46:12.925] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:46:12.925] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:46:12.925] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:46:12.925] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:46:12.925] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:46:12.925] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:46:12.925] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:46:12.925] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:46:12.925] [DEBUG] default - 输出scriptData
-[2019-10-28T16:46:12.925] [DEBUG] default - 准备输出html!
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:46:12.926] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:46:12.927] [INFO] default - 编译结束!
-[2019-10-28T16:46:12.929] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:46:12.929] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:46:12.929] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:46:12.930] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
-[2019-10-28T16:46:40.254] [INFO] default - file change: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:46:40.254] [INFO] default - --------------------------- 开始编译 ---------------------------
-[2019-10-28T16:46:40.254] [INFO] default - 程序运行目录: D:\work\金台圆桌
-[2019-10-28T16:46:40.254] [INFO] default - 刷新模式,变化目录: D:\work\金台圆桌\src\module\peopleCard.owo
-[2019-10-28T16:46:40.254] [INFO] default - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html
-[2019-10-28T16:46:40.254] [DEBUG] default - 读取网页标题: {TAG_14226_TAG}
-[2019-10-28T16:46:40.254] [DEBUG] default - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=1200, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}]
-[2019-10-28T16:46:40.254] [INFO] default - 开始处理模块: home
-[2019-10-28T16:46:40.270] [INFO] default - 开始处理模块: topBar
-[2019-10-28T16:46:40.270] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo
-[2019-10-28T16:46:40.273] [DEBUG] default - 缓存模板: topBarhttps://owo.ink/public/2259616cc09d409ddece5662234b817e.page
-[2019-10-28T16:46:40.275] [DEBUG] default - 模块topBar处理用时: 5 毫秒!
-[2019-10-28T16:46:40.276] [INFO] default - 开始处理模块: img-title-bar
-[2019-10-28T16:46:40.276] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\75576379293574c88e296c99a341341d.owo
-[2019-10-28T16:46:40.280] [DEBUG] default - 缓存模板: img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page
-[2019-10-28T16:46:40.282] [DEBUG] default - 模块img-title-bar处理用时: 6 毫秒!
-[2019-10-28T16:46:40.282] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-1
-[2019-10-28T16:46:40.282] [INFO] default - 开始处理模块: img-title-bar-1
-[2019-10-28T16:46:40.284] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:40.285] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:46:40.285] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-2
-[2019-10-28T16:46:40.285] [INFO] default - 开始处理模块: img-title-bar-2
-[2019-10-28T16:46:40.288] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:40.288] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:46:40.288] [INFO] default - 开始处理模块: peopleCard
-[2019-10-28T16:46:40.292] [DEBUG] default - 缓存模板: peopleCard./src/module/peopleCard.owo
-[2019-10-28T16:46:40.294] [DEBUG] default - 模块peopleCard处理用时: 6 毫秒!
-[2019-10-28T16:46:40.294] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-3
-[2019-10-28T16:46:40.294] [INFO] default - 开始处理模块: img-title-bar-3
-[2019-10-28T16:46:40.297] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:40.297] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:46:40.297] [INFO] default - 开始处理模块: newsList
-[2019-10-28T16:46:40.303] [DEBUG] default - 缓存模板: newsList./src/module/newsList.owo
-[2019-10-28T16:46:40.305] [DEBUG] default - 模块newsList处理用时: 8 毫秒!
-[2019-10-28T16:46:40.305] [DEBUG] default - 模块 newsList 因名称重复被重命名为 newsList-1
-[2019-10-28T16:46:40.306] [INFO] default - 开始处理模块: newsList-1
-[2019-10-28T16:46:40.306] [DEBUG] default - 使用缓存返回模板: newsList-1
-[2019-10-28T16:46:40.307] [DEBUG] default - 模块newsList处理用时: 2 毫秒!
-[2019-10-28T16:46:40.307] [DEBUG] default - 模块 img-title-bar 因名称重复被重命名为 img-title-bar-4
-[2019-10-28T16:46:40.307] [INFO] default - 开始处理模块: img-title-bar-4
-[2019-10-28T16:46:40.310] [DEBUG] default - 智能跳过打包img-title-barhttps://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page的重复样式!
-[2019-10-28T16:46:40.310] [DEBUG] default - 模块img-title-bar处理用时: 3 毫秒!
-[2019-10-28T16:46:40.311] [INFO] default - 开始处理模块: copyright
-[2019-10-28T16:46:40.311] [DEBUG] default - 使用文件缓存:D:\work\金台圆桌\owo_modules\f1c755dc9b1876462957d8e1ee0904a9.owo
-[2019-10-28T16:46:40.313] [DEBUG] default - 缓存模板: copyrighthttps://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page
-[2019-10-28T16:46:40.313] [DEBUG] default - 模块copyright处理用时: 3 毫秒!
-[2019-10-28T16:46:40.315] [DEBUG] default - 缓存模板: home./src/page/home.page
-[2019-10-28T16:46:40.324] [DEBUG] default - 页面home处理用时: 70 毫秒!
-[2019-10-28T16:46:40.325] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/icon.png
-[2019-10-28T16:46:40.325] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/bottom.jpg
-[2019-10-28T16:46:40.325] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/nav.png
-[2019-10-28T16:46:40.325] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/info-icon.png
-[2019-10-28T16:46:40.325] [DEBUG] default - css中的资源处理完毕!
-[2019-10-28T16:46:40.325] [DEBUG] default - 使用postcss处理样式，使用了1个插件!
-[2019-10-28T16:46:40.327] [INFO] default - 处理字体: {}
-[2019-10-28T16:46:40.329] [INFO] default - 使用postcss处理完毕! 用时: 4 毫秒
-[2019-10-28T16:46:40.329] [INFO] default - 正在处理script!
-[2019-10-28T16:46:40.330] [INFO] default - 工程中只有一个页面!
-[2019-10-28T16:46:40.331] [DEBUG] default - 选择将js合并到html中!
-[2019-10-28T16:46:40.342] [INFO] default - js中的资源处理完毕!
-[2019-10-28T16:46:40.342] [DEBUG] default - 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0","src":"http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js"},{"name":"main","src":"./src/main.js","resource":true}]
-[2019-10-28T16:46:40.342] [DEBUG] default - 外部脚本数量: 3
-[2019-10-28T16:46:40.342] [DEBUG] default - 处理脚本: jquery1.11.0
-[2019-10-28T16:46:40.342] [DEBUG] default - 网络脚本: jquery1.11.0
-[2019-10-28T16:46:40.342] [DEBUG] default - 处理脚本: idangerous.swiper2.7.0
-[2019-10-28T16:46:40.342] [DEBUG] default - 网络脚本: idangerous.swiper2.7.0
-[2019-10-28T16:46:40.342] [DEBUG] default - 处理脚本: main
-[2019-10-28T16:46:40.342] [INFO] default - 读取文件: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:46:40.342] [DEBUG] default - 输出scriptData
-[2019-10-28T16:46:40.342] [DEBUG] default - 准备输出html!
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/top.jpg
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-1.png
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-2.png
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-3.png
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/people.png
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-4.png
-[2019-10-28T16:46:40.342] [DEBUG] default - 忽略文件: D:/work/金台圆桌/src/resource/title-5.png
-[2019-10-28T16:46:40.343] [INFO] default - 编译结束!
-[2019-10-28T16:46:40.347] [INFO] default - 发送重新页面需要刷新命令!
-[2019-10-28T16:46:40.368] [INFO] default - 主要逻辑文件写出成功!
-[2019-10-28T16:46:40.370] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
-[2019-10-28T16:46:40.380] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
+[2019-10-29T10:26:55.145] [DEBUG] default - 资源目录:  D:/work/金台圆桌/dist/static/resource
+[2019-10-29T10:26:55.145] [DEBUG] default - 开始美化html
+[2019-10-29T10:26:55.161] [INFO] default - 判断html中的外链情况!
+[2019-10-29T10:26:55.161] [DEBUG] default - 发现外链列表: ./static/css/owo.main.4kmze9us4t4.css,./static/css/main.css,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.css,http://www.people.com.cn/,#beijingjieshao,#huiyixinxi,#zhuanjiaguandian,#xinwenliebiao,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,#,http://www.people.com.cn/img/2016people/images/rmw_logo.png,./static/resource/top.jpg,./static/resource/title-1.png,http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg,http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg,http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg,./static/resource/title-2.png,http://www.people.com.cn/NMediaFile/2019/1028/MAIN201910280904058488226313741.jpg,http://www.people.com.cn/NMediaFile/2019/1028/MAIN201910281003357814460084504.jpg,http://www.people.com.cn/NMediaFile/2019/1028/MAIN201910280904061858069416465.jpg,http://www.people.com.cn/NMediaFile/2019/1028/MAIN201910280904058488226313741.jpg,http://www.people.com.cn/NMediaFile/2019/1028/MAIN201910281003357814460084504.jpg,./static/resource/left.png,./static/resource/right.png,./static/resource/title-3.png,./static/resource/people.png,./static/resource/people.png,./static/resource/people.png,./static/resource/people.png,./static/resource/people.png,./static/resource/people.png,./static/resource/title-4.png,./static/resource/title-5.png,http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js,http://tools.people.com.cn/libs/swiper/2.0/idangerous.swiper.min.js,./static/js/main.js,./static/js/owo.main.4kmze9us4t4.js
+[2019-10-29T10:26:55.163] [INFO] default - 显示外链情况!
+[2019-10-29T10:26:55.164] [INFO] default - 编译结束!
+[2019-10-29T10:26:55.215] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\css\owo.main.4kmze9us4t4.css
+[2019-10-29T10:26:55.215] [INFO] default - 主要逻辑文件写出成功!
+[2019-10-29T10:26:55.216] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.css
+[2019-10-29T10:26:55.216] [INFO] default - 读取成功: D:\work\金台圆桌\src\main.js
+[2019-10-29T10:26:55.269] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\js\main.js
+[2019-10-29T10:26:55.277] [INFO] default - 写入文件: D:\work\金台圆桌\dist\static\css\main.css
